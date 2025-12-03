@@ -491,7 +491,7 @@ export default {
             label: "go2hero专用",
             options:[
               {
-                label: "默认",
+                label: "go2hero_默认",
                 value: "https://raw.githubusercontent.com/go2hero/ACL4SSR/refs/heads/main/rules/ACL4SSR.ini"
               }
             ]
@@ -1426,6 +1426,7 @@ export default {
   }
 };
 </script>
+
 
 
 
