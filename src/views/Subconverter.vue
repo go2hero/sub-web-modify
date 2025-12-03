@@ -488,17 +488,12 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "go2hero专用",
-            options:[
-              {
-                label: "go2hero_默认",
-                value: "https://raw.githubusercontent.com/go2hero/ACL4SSR/refs/heads/main/rules/ACL4SSR.ini"
-              }
-            ]
-          },
-          {
             label: "通用",
             options: [
+              {
+                label: "自用默认",
+                value: "https://raw.githubusercontent.com/go2hero/ACL4SSR/refs/heads/main/rules/ACL4SSR.ini"
+              },
               {
                 label: "默认",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
@@ -1426,6 +1421,7 @@ export default {
   }
 };
 </script>
+
 
 
 
