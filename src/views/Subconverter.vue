@@ -488,6 +488,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "go2hero专用",
+            options:[
+              {
+                label: "默认",
+                value: "https://raw.githubusercontent.com/go2hero/ACL4SSR/refs/heads/main/rules/ACL4SSR.ini"
+              }
+            ]
+          },
+          {
             label: "通用",
             options: [
               {
@@ -1417,6 +1426,7 @@ export default {
   }
 };
 </script>
+
 
 
 
