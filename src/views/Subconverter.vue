@@ -471,20 +471,14 @@ export default {
           "自动判断客户端": "auto",
         },
         shortTypes: {
-          "v1.mk": "https://v1.mk/short",
-          "d1.mk": "https://d1.mk/short",
-          "dlj.tf": "https://dlj.tf/short",
-          "suo.yt": "https://suo.yt/short",
-          "sub.cm": "https://sub.cm/short",
+          "laix.top": "https://shorten.laix.top"
         },
         customBackend: {
-          "ClawCloud": "https://vphpdsiddlhp.ap-northeast-1.clawcloudrun.com",
-          "肥羊增强型后端【vless reality+anytls】": "https://api.v1.mk",
-          "肥羊备用后端【vless reality+anytls】": "https://url.v1.mk",
+          "ClawCloud": "https://vphpdsiddlhp.ap-northeast-1.clawcloudrun.com"
         },
         backendOptions: [
-          {value: "https://api.v1.mk"},
-          {value: "https://url.v1.mk"},
+          //{value: "https://api.v1.mk"},
+          //{value: "https://url.v1.mk"},
         ],
         remoteConfig: [
           {
